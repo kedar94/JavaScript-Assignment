@@ -5,9 +5,17 @@ Submitting an assignment for Javascript Developer.
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 function getObjPath(jsObj, path) {
-    try { return eval('jsObj.'+path) }
-    catch(e) { return undefined }
+    try 
+    { 
+    return eval('jsObj.'+path)
+    }
+    catch(e) 
+    { 
+    return undefined
+    }
 }
+
+Assigning Values:
 
 emp = { name : 'kedar', address : { locality : { street : '2nd main domlur'  } } }
 
